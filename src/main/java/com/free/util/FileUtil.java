@@ -7,9 +7,7 @@ import com.free.exception.FileException;
 /**
  * @ClassNameFileutil
  * @Description
- * @Author Free
- * @Date2020/9/20 12:34
- * @Version V1.0
+ * @Author Lee
  **/
 public class FileUtil {
     /**

@@ -13,9 +13,7 @@ import java.util.*;
 /**
  * @ClassNameTokenizerUtil
  * @Description 分词工具
- * @Author Free
- * @Date2020/9/20 13:21
- * @Version V1.0
+ * @Author Lee
  **/
 public class TokenizerUtil {
 
@@ -44,7 +42,7 @@ public class TokenizerUtil {
             String afterWord ="";
             for (int i = 0; i < tempWord.length(); i++) {
                 char c = tempWord.charAt(i);
-                //只判断中文
+                //只判断汉字字符
                 if (String.valueOf(c).matches("[\u4e00-\u9fa5]")) {
                     afterWord += c;
                 }
